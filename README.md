@@ -1,1 +1,2 @@
 # Robo-automatizar-teste-de-ONT
+Projeto em Python utilizando Selenium para automatizar testes e configurações em ONTs Huawei. O robô acessa a interface web do equipamento, realiza autenticação, valida a potência RX da fibra conforme parâmetros definidos e, caso esteja dentro do padrão, aplica automaticamente um arquivo de configuração. O processo substitui atividades manuais, trazendo mais agilidade, padronização e confiabilidade.
