@@ -22,11 +22,11 @@ WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "l
 
 #-----Usuário-----#
 input_element = driver.find_element(By.CLASS_NAME, "logininputcss")
-input_element.send_keys("Epadmin")
+input_element.send_keys("#inserir login do eq")
 
 #-----Senha-----#
 input_element = driver.find_element(By.ID, "txt_Password")
-input_element.send_keys("adminEp" , Keys.ENTER)
+input_element.send_keys("#inserir a senha do eq" , Keys.ENTER)
         
 #----- Caminho Fibra-----#
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "icon_Systeminfo")))
@@ -80,5 +80,6 @@ driver.execute_script("document.getElementById('btnSubmit').click()")
 
 alert = wait.until(EC.alert_is_present())
 alert.accept() 
+
 
 time.sleep(10)
